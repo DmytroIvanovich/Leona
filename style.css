@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px ;
+    font-weight: normal;
+    background-color: rgb(156, 236, 209);
+
+}
+
+.Leona_logo {
+    border-radius: 30px ;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    /* width: 50%; */
+    /* height: 100%; */
+    /* display: block */
+}
+
+/* .container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+} */
+
+.Leona {
+    margin-bottom: 20px;
+    display: flex; 
+    margin-left: 20px;
+   
+}
+
+.Leona_ch {
+    margin-left: 30px;
+}
+
+.info {
+    background-color: rgb(13, 232, 159);
+    font-style: italic;
+    border-radius: 20px;
+    padding: 5px 2%;
+    margin: 15px;
+}
+
+.info h2 {
+    margin: 2px;
+}
+
+.info .info_social {
+    display: block;
+}
+
+.btn {
+    background: black;
+    padding: 10px 15px;
+    color: blue;
+    border: none;
+    border-radius: 6px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.btn:hover {
+    opacity: 1;
+    color: orchid;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(5, 2, 64);
+}
+
+a:active {
+    color: rgb(64, 67, 67);
+}
+
+.hobbi {
+padding: 0 20px;
+}
+
+.hobbi li {
+color: rgb(64, 67, 67);
+margin-bottom: 5px ;
+}
+
+.info social {
+    padding: 0;
+    display: inline;
+    /* padding: 20px 20px; */
+    /* margin: 20px; */
+}
+
+/* .info social {
+    list-style: none;
+    margin-bottom: 5px;
+} */

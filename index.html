@@ -2,73 +2,103 @@
 <head>
     <meta charset="UTF-8">
     <title>Children's dresses</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    .container {
+        max-width: 750px;
+        /* padding-top: 20px; */
+        /* margin: auto; */
+    }
+
+    @media (max-width: 600px) {
+             .Leona {
+                display: block;
+                text-align: center;
+            }
+        }
+</style>
+
 <body>
-    <table>
-<tr>
-    <td>
-        <img src="Leona.jpg" width="500" lang="100" alt="Заглавне фото Леона">
-    </td>
-    <td>
+<div class="container">
+    <div class="Leona">
+        <img class="Leona_logo" src="Leona_logo.jpg" width="600"  alt="Main photo of Leon">
+    <div class="Leona_ch">
         <h1>Leona children's dresses</h1>  
-        <p><em><strong>Дитячі плаття ручної роботи</strong></em></p>
-    </td>
-</tr>
-
-    </table>
-
-
+        <p>
+            <em>
+                <strong>Handmade children's dresses</strong>
+            </em>
+        </p>
+    </div>
+    </div>
 
     
-
-    <hr>
-
-<h2>Оголошення:</h2>
-    <a href="olx.html">Список товарів</a>
-
-    <hr>
-
-<h2>Плаття для дівчинки </h2>
-<img src="dress.jpg" width="150"   alt="рожеве плаття">
+        <div class="info">
+            <h2>Advertisement:</h2>
+            <a href="https://www.olx.pl" target="_blank">List of products on OXL</a>       
+        </div>
 
 
+        <div class="info">
+            <h2>Dress for a girl:</h2>
+            <a href="dresses.html"
+            target="_blank">Gallery</a>    
+        </div>
+
+        <div class="info social">
+
+        <h2>My social networks:</h2>
+        <ul>
+            <li><a href="https://www.x.com/"
+                target="_blank">x.com</a></li>  
+            <li><a href="https://www.instagram.com/"
+                target="_blank">Instagram</a></li>
+            <li><a href="https://www.t.me/"
+                target="_blank">Telegram</a>
+            <li><a href="https://www.youtube.com/"
+                target="_blank">YouTube</a></li>
+
+        </ul>
+        </div>
+
+
+        <div class="info">
+        <h2>My hobbies:</h2>
+            <ol class="hobbi">
+                <li>I like to travel</li>
+                <li>I like to ride a bike</li>
+            </ol>
+        </div>
 <hr>
-
-<h2>Мої соціальні мережі:</h2>
-<ul>
-    <li><a href="https://www.olx.ua/d/uk/obyavlenie/kontroller-dlk-642-lite-IDViqFW.html?bs=olx_pro_listing"
-        target="_blank">OLX</a></li>
-    <li>OLX</li>
-</ul>
-<hr>
-<h2>Мої хобі:</h2>
-<ol>
-    <li>Я люблю подорожувати</li>
-    <li>Я люблю ......</li>
-</ol>
-<hr>
-<h2>Зв'язатись зі мною:</h2>
+<h2>Contact me:</h2>
 
 <form action="/">
-    <label for="name">Ваше ім'я:</label>
+    <label for="name">Your name:</label>
     <input type="text" id="name"
-    placeholder="Ваше ім'я">
+    placeholder="Your name">
 
 <br>
 
-    <label for="e-mail">Ваш e-mail:</label>
+    <label for="e-mail">Your e-mail:</label>
     <input type="text" id="e-mail"
-    placeholder="Ваш e-mail">
+    placeholder="Your e-mail">
 
     
 <br>
 
-<label for="text">Ваше повідомлення:</label>
+<label for="text">Your message:</label>
+
+<br>
+
 <textarea id="text"></textarea>
 
 <br>
 
-    <input type="submit" value="Відправити">
+    <button class="btn">Send</button>
+
+</div>
+</div>
 </form>
 
 </body>
